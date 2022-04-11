@@ -1,6 +1,12 @@
 :host {
   display: inline-flex;
+  align-items: center;
   padding: 10px;
   background-color: bisque;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+:host(:hover) {
+  background-color: #3e8e41;
 }

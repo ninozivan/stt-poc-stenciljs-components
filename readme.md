@@ -19,3 +19,11 @@ Test project for STT
 - `npm start` Starts the development server
 - `npm run build` Builds your components/app in production mode.
 - `npm test` Starts the test runner.
+
+# How to publish npm package
+
+- Using the terminal, login to the npm (`npm login`)
+- Enter username & pass
+- Change lib version inside the `package.json` file ("version": "x.x.x")
+- Run `npm run build`
+- Run `npm publish`
